@@ -9,3 +9,27 @@ https://github.com/aquasecurity/trivy/releases/latest/
 sudo apt install trivy
 sudo trivy image python:3.4-alpine
 sudo trivy image --severity HIGH python:3.4-alpines
+
+#Reserve Engg
+In FirFox
+https://www.snaptube.com/download-snaptube/
+https://apkpure.net/zarchiver-2025/ru.zdevs.zarchiver/download#google_vignette
+
+In kali linux
+wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool 
+wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.12.1.jar  
+ls
+mv apktool_2.12.1.jar apktool.jar
+sudo mv apktool apktool.jar /usr/local/bin
+cd /usr/local/bin
+ls
+cd
+cd Downloads
+ls
+chmod 777 Snaptube_20250828.apk                                
+apktool d -f Snaptube_20250828.apk
+chmod 777 ru.zdevs.zarchiver_1.0.10.apk                                                  
+apktool d -f ru.zdevs.zarchiver_1.0.10.apk
+
+
+
